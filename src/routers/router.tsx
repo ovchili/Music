@@ -1,4 +1,3 @@
-import { Empty } from 'layout';
 import {
 	Navigate,
 	Route,
@@ -6,6 +5,7 @@ import {
 	createRoutesFromElements,
 } from 'react-router-dom';
 
+import Empty from '@/layouts/Empty/Empty';
 import Login from '@/pages/Login/Login';
 import Register from '@/pages/Register/Register';
 

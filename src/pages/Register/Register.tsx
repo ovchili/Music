@@ -9,7 +9,7 @@ import {
 	RegisterContainer,
 	RegisterForm,
 	RegisterImg,
-} from './Register,styled';
+} from './Register.styled';
 
 const Register = () => {
 	return (
@@ -21,7 +21,7 @@ const Register = () => {
 				<Password placeholder='Повторите пароль' />
 			</RegisterContainer>
 			<ButtonContainer>
-				<Button primary>Зарегистрироваться</Button>
+				<Button $primary>Зарегистрироваться</Button>
 			</ButtonContainer>
 		</RegisterForm>
 	);

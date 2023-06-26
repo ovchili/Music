@@ -16,7 +16,8 @@ const Global = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    border: none
+    border: none;
+    font-family: 'SkyEng', sans-serif;
 }
 
 html, body {
@@ -27,7 +28,7 @@ html, body {
 
 #root{
     height: 100%;
-    font-family: 'SkyEng', sans-serif;
+   
 }
 `;
 

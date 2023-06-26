@@ -11,7 +11,7 @@ import {
 	LoginContainer,
 	LoginForm,
 	LoginImg,
-} from './Login,styled';
+} from './Login.styled';
 
 const Login = () => {
 	const nav = useNavigate();
@@ -23,7 +23,7 @@ const Login = () => {
 				<Password placeholder='Пароль' />
 			</LoginContainer>
 			<ButtonContainer>
-				<Button primary>Войти</Button>
+				<Button $primary>Войти</Button>
 				<Button
 					onClick={() => {
 						nav('/register');
