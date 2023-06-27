@@ -4,7 +4,7 @@ import { Button } from '@/components/Button/Button.styled';
 import Password from '@/components/Input/Password/PasswordField';
 import TextField from '@/components/Input/TextField/TextField';
 
-import logo from '@/assets/images/logo.svg';
+import logo from '@/assets/images/logo.png';
 
 import {
 	ButtonContainer,
@@ -15,6 +15,7 @@ import {
 
 const Login = () => {
 	const nav = useNavigate();
+
 	return (
 		<LoginForm>
 			<LoginImg draggable={false} src={logo} />
