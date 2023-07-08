@@ -5,7 +5,7 @@ import { Input } from '@/components/Input/Input.styled';
 
 export const Section = styled.section`
 	position: relative;
-	width: 1283px;
+	width: 1293px;
 `;
 
 export const Search = styled(Input)`

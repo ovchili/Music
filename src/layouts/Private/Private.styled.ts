@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
 
 export const Container = styled.section`
-	height: 100%;
+	min-height: 100%;
 	background-color: #000;
 	color: #fff;
 	padding: 0 92px 0 36px;
@@ -16,5 +16,10 @@ export const Header = styled.header`
 `;
 
 export const Main = styled.main`
+	margin-top: 15px;
 	margin-left: 294px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
 `;

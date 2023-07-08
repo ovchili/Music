@@ -18,10 +18,16 @@ const Global = createGlobalStyle`
     outline: none;
     border: none;
     font-family: 'SkyEng', sans-serif;
+    font-style: normal;
+    font-weight: normal;
 }
 
-html, body {
+html {
     height: 100%;
+}
+
+body {
+    height: 100% ;
 }
 
 a {
